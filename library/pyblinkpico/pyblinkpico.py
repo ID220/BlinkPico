@@ -101,7 +101,7 @@ class Matrix:
             self.buffer[i] = fill
         self.show()
 
-    def autoShow(self, show=False):
+    def auto_show(self, show=False):
         self._authoshow = show
 
     # Overloading []

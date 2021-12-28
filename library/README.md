@@ -23,7 +23,7 @@ Set all the LEDs of the display `on` if the value is `1`, or `off` if value is `
 
 Update the LEDs of the display.
 
-* **autoShow(show=False)**
+* **auto_show(show=False)**
 
 Automatically update the LEDs of the display upon changes.
 
@@ -44,7 +44,7 @@ import time
 
 display.brightness(50)
 display.blink_rate(Matrix.NO_BLINK)
-display.autoShow(True)
+display.auto_show(True)
 
 # smile
 for row in range(2, 6):
