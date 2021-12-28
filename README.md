@@ -5,6 +5,9 @@ Hardware design files and software library are open source.
 
 ![](board.png)
 
+Software library with examples can be found [here](library/README.md).
+
+
 ```
 Designed by MAKinteract - 2021
 ```
