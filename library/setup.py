@@ -5,7 +5,7 @@ with open("README.md", "r") as fp:
 
 setup(
     name='pyblinkpico',
-    version='0.1.3',
+    version='0.1.4',
     description='The BlinkPico shield library to be used with RPI Pico',
     url='https://github.com/ID220/BlinkPico',
     author='Andrea Bianchi',
