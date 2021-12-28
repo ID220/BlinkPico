@@ -1,15 +1,15 @@
-
 hardware/altium/BlinkPico/__Previews/
-
 hardware/altium/BlinkPico/History/
-
 hardware/altium/BlinkPico/Project Logs for BlinkPico/
-
 hardware/altium/BlinkPico/Project Outputs for BlinkPico/Gerber/BlinkPico-macro.APR_LIB
-
 hardware/altium/BlinkPico/Project Outputs for BlinkPico/Gerber/BlinkPico.apr
-
 hardware/altium/BlinkPico/Project Outputs for BlinkPico/Gerber/BlinkPico.EXTREP
-
 hardware/altium/BlinkPico/Project Outputs for BlinkPico/Gerber/BlinkPico.REP
+
 .DS_Store
+library/build
+library/BlinkPico.egg-info
+
+library/dist/
+
+library/pyblinkpico.egg-info/

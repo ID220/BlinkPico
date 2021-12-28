@@ -95,8 +95,8 @@ class Matrix:
     def show(self):
         self.i2c.writeto_mem(self.address, 0x00, self.buffer)
 
-    def fill(self, color):
-        fill = 0xFF if color else 0x00
+    def fill(self, value):
+        fill = 0xFF if value else 0x00
         for i in range(16):
             self.buffer[i] = fill
         self.show()
@@ -145,3 +145,6 @@ class Matrix:
         if self._authoshow:
             self.show()
         return None
+
+
+display = Matrix(16, 17)
