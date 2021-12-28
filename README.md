@@ -1,11 +1,6 @@
 # BlinkPico
 
-Describe the project
+A shield with three buttons and a 8x8 LED Matrix display.
+Hardware design files and software library are open source.
 
 
-## Notes
-
-### Library - how to upload on pipy
-
-python setup.py sdist
-twine upload --skip-existing dist/*
