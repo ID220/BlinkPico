@@ -62,10 +62,15 @@ display[1,6] = 1
 display[6,1] = 1
 display[6,6] = 1
 
+# eyes
 display[2,2] = 1
 display[2,5] = 1
+
+# mouth
 display[4,2] = 1
 display[4,5] = 1
+display[5,3] = 1
+display[5,4] = 1
 ```
 
 ## Button
