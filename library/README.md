@@ -19,7 +19,7 @@ Set the value of the brigthness of the LEDs from `0` to `100`.
 
 Set all the LEDs of the display `on` if the value is `1`, or `off` if value is `0`.
 
-* **show(self)**
+* **show()**
 
 Update the LEDs of the display.
 
