@@ -2,7 +2,6 @@ import machine
 from machine import Pin, I2C
 from machine import Timer
 from micropython import const
-import framebuf
 
 # Buttons
 
@@ -103,6 +102,9 @@ class Matrix:
 
     def auto_show(self, show=False):
         self._authoshow = show
+
+    def clear(self):
+        self.fill(0)
 
     # Overloading []
 
