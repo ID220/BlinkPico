@@ -1,11 +1,11 @@
 from setuptools import setup
 
-with open("README.md", "r") as fp:
+with open("README.md", "r", encoding="utf-8") as fp:
     long_description = fp.read()
 
 setup(
     name='pyblinkpico',
-    version='0.2.0',
+    version='0.2.1',
     description='The BlinkPico shield library to be used with RPI Pico',
     url='https://github.com/ID220/BlinkPico',
     author='Andrea Bianchi',
