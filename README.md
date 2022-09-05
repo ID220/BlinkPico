@@ -3,7 +3,7 @@
 ![version](https://img.shields.io/badge/Version-0.2.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-orange)
 
-A shield with three buttons and a 8x8 LED Matrix display.
+A shield with three buttons and a 8x8 LED Matrix display inspired by the [micro:bit](https://www.microbit.org).
 Hardware design files and software library are open source.
 
 ![](board.png)
